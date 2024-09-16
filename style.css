@@ -1,0 +1,562 @@
+body{
+    background-color: white;
+    padding: auto;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(248, 248, 247);
+}
+.mac, .all, .bonanza, .giftCards, .latestDeals{
+    color: black;
+    margin: 20px 50px;
+    padding: 5px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.firstText{
+    border: 0 solid rgb(248, 248, 247);
+}
+.container{
+    background-color: pink;
+    color: black;
+    position: relative;
+    padding: 150px;
+    height: 10vh;
+    animation: change-color 5s infinite alternate;
+}
+ @keyframes change-color {
+    0% {
+        background-color: pink;
+    }
+    50% {
+        background-color: rgb(128, 128, 177);
+    }
+ }
+.img1{
+    position: absolute;
+    top: 50%;
+    right: 200px;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    margin: 50px;
+}
+.img2{
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    margin: 50px;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    transform: translateY(-50%);
+    margin: 50px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.btn{
+    box-sizing: border-box;
+    color: transparent;
+    background-color: transparent;
+    display: block !important;
+    margin-top: 150px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn:hover{
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.a1{
+    text-decoration: none;
+    padding: 15px 15px;
+    height: 1vh;
+    color: black;
+}  
+.slider{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    height: 20vh;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.inline-image{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.inline-text{
+    margin: 50px;
+}
+.now{
+    display: flex;
+    align-items: baseline;
+}
+.categories{
+    border-left: 7px solid red;
+    border-radius: 15px;
+    background-color: #B2BEB5;
+    opacity: 0.75;
+    height: 305px;
+    width: 250px;
+    padding-left: 10px;
+}
+.tag{
+    border-radius: 10px;
+    border-top: 5px solid blue;
+    background-color: rgb(187, 187, 212);
+    height: 305px;
+    width: 950px;
+    padding-left: 35px;
+    position: relative;
+}
+.cat{
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.deal{
+    color: red;
+}
+.price{
+    margin: 10px;
+}
+.hd{
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.hdmi{
+    margin-top: 100px;
+    margin-left: 78px;
+    margin-bottom: 1px;
+}
+.hdmi2{
+    margin-left: 70px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+.hdmi3 {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: large;
+}
+.deal2{
+    margin-left: 20px;
+    color: red;
+    margin-top: 5px;
+    font-size: large;
+}
+.img3{
+    position: absolute;
+    top: 30%;
+    right: 100px;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    margin: 100px;
+}
+.burna{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+.kid{
+    position: relative;
+    width: 580px;
+    margin: 5px;
+    background-color: rgb(233, 209, 213);
+    height: min-content;
+    padding: 20px;
+}
+.img4{
+    position: absolute;
+    right: 5px;
+    transform: translateY(-50%);
+    height: 130px;
+    width: 130px;
+    top: 50%;
+    margin: 10px;
+}
+.h4text, .ptext{
+    margin-top: 10px;
+}
+.btn2{
+    box-sizing: border-box;
+    color: transparent;
+    background-color: transparent;
+    display: block !important;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+.btn2:hover{
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.kid2{
+    position: relative;
+    width: 580px;
+    margin: 5px;
+    margin-left: 20px;
+    background-color: rgb(233, 209, 213);
+    height: min-content;
+    padding: 20px;
+}
+.img5{
+    position: absolute;
+    right: 5px;
+    transform: translateY(-50%);
+    height: 130px;
+    width: 150px;
+    top: 60%;
+    margin: 10px;
+}
+.h4text, .ptext{
+    margin-top: 10px;
+}
+.btn3{
+    box-sizing: border-box;
+    color: transparent;
+    background-color: transparent;
+    display: block !important;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+.btn3:hover{
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.h1text{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rema{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+.earpods{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    background-color: rgb(226, 234, 241);
+    margin: 10px;
+}
+.earpods:hover{
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.img6{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    top: 25%;
+    left: 30%;
+}
+.inStock{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 40%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(142, 145, 143);
+}
+.earp{
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reviews{
+    position: absolute;
+    top: 65%;
+    right: 5%;
+    color: rgb(142, 145, 143); 
+}
+.prodpri{
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    font-size: x-large;
+}
+.stars{
+    position: absolute;
+    width: 70px;
+    height: 15px;
+    top: 70%;
+    left: 5%;
+}
+.dollars{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.deliver{
+    background-color: red;
+    border-top-left-radius: 5px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0 20px;
+}
+.bonanza2{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.earpods4{
+ width: 300px;
+    height: 350px;
+    position: relative;
+    background-color: rgb(226, 234, 241);
+    margin: 10px;
+}
+.earpods4:hover{
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.delivery{
+    position: relative;
+    width: 95%;
+    height: 50vh;
+    background-color: rgb(233, 209, 213);
+}
+.female{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 250px;
+    height: 250px;
+}
+.awesome{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    color: rgb(142, 145, 143); 
+}
+.door{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.express{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    color: rgb(142, 145, 143); 
+}
+.btn6{
+    box-sizing: border-box;
+    color: black;
+    background-color: transparent;
+    display: block !important;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+.btn6:hover{
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.slider{
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 209, 213);
+    height: 20vh;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 96.5%;
+}
+.inline-image{
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.inline-text{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.delivery2{
+    position: relative;
+    width: 98.5%;
+    height: 60vh;
+    background-color: rgb(226, 234, 241);
+}
+.female{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 380px;
+    height: 380px;
+}
+.awesome2{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    color: rgb(142, 145, 143); 
+}
+.door2{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.express2{
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    color: rgb(142, 145, 143); 
+}
+.foot{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    background-color: rgb(233, 209, 213);
+    margin-top: 60px;
+    width: 98.5%;
+}
+.footer{
+    display: block;
+    padding: 65px;
+}
+.ftext, .fp{
+    color: #B2BEB5;
+}
+.copy{
+    border-top: 2px solid rgb(142, 145, 143);
+    background-color: rgb(233, 209, 213);
+    width: 98.5%;
+    height: 18vh;
+    text-align: center;
+    padding-top: 40px;
+}
+@media (max-width: 1200px) {
+    .container {
+        padding: 100px;
+    }
+    
+    .img1, .img2, .img3 {
+        margin: 30px;
+    }
+    
+    .text {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    
+    .categories, .tag {
+        width: 100%;
+        height: auto;
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 992px) {
+    .img1, .img2, .img3 {
+        right: 20px;
+    }
+
+    .text {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .slider {
+        height: auto;
+    }
+    
+    .categories, .tag {
+        width: 100%;
+    }
+    
+    .earpods, .earpods4 {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .head {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .mac, .all, .bonanza, .giftCards, .latestDeals {
+        margin: 10px;
+        padding: 3px;
+    }
+
+    .img1, .img2, .img3, .text {
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    .btn, .btn2, .btn3, .btn6 {
+        padding: 5px;
+    }
+
+    .delivery, .delivery2 {
+        height: auto;
+    }
+
+    .female {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .foot {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 50px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .img1, .img2, .img3 {
+        margin: 10px;
+    }
+    
+    .btn, .btn2, .btn3, .btn6 {
+        padding: 3px;
+    }
+
+    .categories, .tag {
+        width: 100%;
+    }
+
+    .earpods, .earpods4 {
+        width: 100%;
+    }
+    
+    .footer {
+        padding: 30px;
+    }
+
+    .copy {
+        padding-top: 20px;
+    }
+}
